@@ -1,7 +1,7 @@
 public class CeilingNumber{
     public static void main(String ar[]){
         int[] arr = {2,3,5,9,14,16,18};
-        int target = 1;
+        int target = 5;
         // int[] arr = {18,16,14,9,5,3,2};
         // int target = 15;
 
@@ -20,10 +20,10 @@ public class CeilingNumber{
 
         boolean isASC = arr[start] < arr[end];
         if(isASC){
-            if(target > arr[end] || target < arr[start]) return -1;
+            if(target > arr[end] || target < arr[start]) return -1;  //ascending
             // if(target < arr[start]) return -1;
         }else{
-            if(target > arr[start] || target < arr[end]) return -1;
+            if(target > arr[start] || target < arr[end]) return -1;  //descending
             // if(target < arr[end]) return -1;
         }
         while(start <= end){
