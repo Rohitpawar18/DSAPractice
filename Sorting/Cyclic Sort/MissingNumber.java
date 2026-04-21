@@ -1,10 +1,10 @@
 
 public class MissingNumber {
     public static void main(String[] args) {
-        int[] nums = { 0, 1, 2, 3 };
+        int[] nums = { 3, 0, 1 };
         missingNumber(nums);
         System.out.println(missingNumber(nums));
-    }   
+    }
     
     public static int missingNumber(int[] nums) {
         int i = 0;
