@@ -1,3 +1,5 @@
+// Hard
+
 public class MedianOfTwoSortedArrays{
     public static void main(String ar[]){
 
@@ -50,7 +52,7 @@ public class MedianOfTwoSortedArrays{
 
 
 
-        
+
         // int[] resultNum = new int[n];
 
         // int i = 0,j = 0, k = 0;
